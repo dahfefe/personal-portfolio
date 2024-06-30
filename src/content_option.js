@@ -20,19 +20,9 @@ const dataabout = {
     aboutme: "Currently, I am a freelance developer assisting clients dominantly with frontend design, e-commerce management, and data management.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "UC Berkeley Coding Bootcamp",
+        where: "online",
+        date: "2024",
     },
 ];
 
