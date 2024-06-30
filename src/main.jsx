@@ -9,11 +9,11 @@ import './index.css';
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import App from './app/App';
 import ErrorPage from './pages/ErrorPage';
-import HomePage from './pages/HomePage';
+import HomePage from './pages/home/HomePage';
 import ProfilePage from './pages/ProfilePage';
-import AboutPage from './pages/AboutPage';
+import AboutPage from './pages/about/AboutPage';
 import ContactPage from './pages/ContactPage';
-import PortfolioPage from './pages/PortfolioPage';
+import PortfolioPage from './pages/portfolio/PortfolioPage';
 import ResumePage from './pages/ResumePage';
 
 // Define the accessible routes, and which components respond to which URL

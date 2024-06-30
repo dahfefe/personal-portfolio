@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 // Bringing in the required component from 'react-router-dom' for linking between pages
 import { Link } from 'react-router-dom';
-import Profile from '../components/UI/ProfileSections/ProfileTeaser';
-import ListItem from '../components/UI/ListItem';
-import API from '../utils/API';
+import Profile from '../../components/UI/ProfileSections/ProfileTeaser';
+import ListItem from '../../components/UI/ListItem';
+import API from '../../utils/API';
 
 export default function HomePage() {
   // Prior to the return statement, our homepage uses a few react hooks and fetchData function to query to a mock database and retrieve random user data
