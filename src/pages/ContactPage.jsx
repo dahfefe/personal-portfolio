@@ -3,6 +3,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { meta } from "../../content_option";
 import { contactConfig } from "../../content_option";
+import * as emailjs from "emailjs-com";
 
 // This is a static page mocking an "Contact" section 
 export default function ContactPage() {
@@ -17,6 +18,9 @@ export default function ContactPage() {
     variant: "",
   });
 
+  const [email, setEmail] = useState('');
+  const [isValidEmail, setIsValidEmail] = useState(true);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setFormdata({ loading: true });
@@ -27,6 +31,17 @@ export default function ContactPage() {
       to_name: contactConfig.YOUR_EMAIL,
       message: formData.message,
     };
+
+    const validateEmail = (email) => {
+      const regex = /^([^\s@]+@[^\s@]+\.[^\s@]+)$/;
+      return regex.test(email);
+    };
+
+    const isValid = validateEmail(email);
+    setIsValidEmail(isValid);
+    if (isValid) {
+      console.log('Email submitted:', email);
+    }
 
     emailjs
       .send(
@@ -40,7 +55,7 @@ export default function ContactPage() {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "SUCCESS! , Thank you for your messege",
             variant: "success",
             show: true,
           });
@@ -48,7 +63,7 @@ export default function ContactPage() {
         (error) => {
           console.log(error.text);
           setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
+            alertmessage: `Failed to send!, ${error.text}`,
             variant: "danger",
             show: true,
           });
@@ -58,6 +73,7 @@ export default function ContactPage() {
   };
 
   const handleChange = (e) => {
+    setEmail(e.target.value);
     setFormdata({
       ...formData,
       [e.target.name]: e.target.value,
@@ -154,6 +170,7 @@ export default function ContactPage() {
                 <Col lg="12" className="form-group">
                   <button className="btn ac_btn" type="submit">
                     {formData.loading ? "Sending..." : "Send"}
+                    {!isValidEmail && <p className="error">Please enter a valid email address.</p>}
                   </button>
                 </Col>
               </Row>
