@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import "./styleContactPage.css";
+import "./style.css";
 import { Container, Row, Col, Alert } from "react-bootstrap";
-import { meta } from "../../content_option";
-import { contactConfig } from "../../content_option";
+import { meta } from "../../../content_option";
+import { contactConfig } from "../../../content_option";
 import * as emailjs from "emailjs-com";
 
 // This is a static page mocking an "Contact" section 

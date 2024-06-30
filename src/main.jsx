@@ -12,7 +12,7 @@ import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/home/HomePage';
 import ProfilePage from './pages/ProfilePage';
 import AboutPage from './pages/about/AboutPage';
-import ContactPage from './pages/ContactPage';
+import ContactPage from './pages/contact/ContactPage';
 import PortfolioPage from './pages/portfolio/PortfolioPage';
 import ResumePage from './pages/ResumePage';
 
