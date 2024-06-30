@@ -36,16 +36,13 @@ const worktimeline = [{
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
+const skills = [
     {
-        name: "Djano",
+        name: "mongoDB",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "JavaScript",
         value: 80,
     },
     {
@@ -53,22 +50,22 @@ const skills = [{
         value: 60,
     },
     {
-        name: "Jquery",
+        name: "jQuery",
         value: 85,
     },
 ];
 
 const services = [{
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Make is stunning!",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Data Management",
+        description: "Effective organization of your data.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Front End Development",
+        description: "Design you will appreciate.",
     },
 ];
 
