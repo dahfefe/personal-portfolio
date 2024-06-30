@@ -1,6 +1,6 @@
 // Bringing in the required import from 'react-router-dom'
 import { Outlet } from 'react-router-dom';
-import Nav from './components/Nav';
+import Nav from '../components/Nav';
 import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
@@ -10,7 +10,7 @@ import {
 import withRouter from "../hooks/withRouter";
 import AppRoutes from "./routes";
 import Headermain from "../header";
-import AnimatedCursor  from "../src/hooks/AnimatedCursor";
+import AnimatedCursor  from "../hooks/AnimatedCursor";
 import "./App.css";
 
 function _ScrollToTop(props) {

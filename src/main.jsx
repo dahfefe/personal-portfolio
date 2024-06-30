@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 // Bringing in the pages the router will use to conditionally show the appropriate views
-import App from './App';
+import App from './app/App';
 import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/HomePage';
 import ProfilePage from './pages/ProfilePage';
