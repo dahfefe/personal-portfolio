@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { logotext, socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
 
@@ -35,19 +35,19 @@ const Headermain = () => {
               <div className="menu__container p-3">
                 <ul className="the_menu">
                   <li className="menu_item ">
-                  <Link  onClick={handleToggle} to="/" className="my-3">Home</Link>
+                  <NavLink  onClick={handleToggle} to="/" className="my-3" activeClassName="active"> Home</NavLink>
                   </li>
                   <li className="menu_item">
-                  <Link  onClick={handleToggle} to="/portfolio" className="my-3"> Portfolio</Link>
+                  <NavLink  onClick={handleToggle} to="/portfolio" className="my-3" activeClassName="active"> Portfolio</NavLink>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/about" className="my-3"> About Me</Link>
+                  <NavLink onClick={handleToggle} to="/about" className="my-3" activeClassName="active"> About Me</NavLink>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
+                  <NavLink onClick={handleToggle} to="/contact" className="my-3" activeClassName="active"> Contact</NavLink>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/resume" className="my-3"> Resume</Link>
+                  <NavLink onClick={handleToggle} to="/resume" className="my-3" activeClassName="active"> Resume</NavLink>
                   </li>
                 </ul>
               </div>
