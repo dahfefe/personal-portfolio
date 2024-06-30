@@ -60,65 +60,34 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://dahfefe.github.io/2-portfolio-start/assets/images/Screenshot%202024-05-20%20at%209.26.51%E2%80%AFPM.png",
+        description: "E-commerce Website",
+        link: "https://agile-anchorage-91815-86c9ccb72548.herokuapp.com/products",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://dahfefe.github.io/2-portfolio-start/assets/images/dsfsdfsfdf.png",
+        description: "Calorie & BMI Tracker",
+        link: "https://ojds2022.github.io/goat_calorie_tracker/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://dahfefe.github.io/2-portfolio-start/assets/images/felixthecat7587_an_animated_rendition_of_a_tool_that_generates__242020a1-3acd-4fbb-a285-7b4973b67bc2.png",
+        description: "Password Generator Tool",
+        link: "https://dahfefe.github.io/3-custom-password-generator/",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://dahfefe.github.io/2-portfolio-start/assets/images/felixthecat7587_a_animated_front_up_view_of_hand_taking_notes_o_a20e7e7f-a057-4056-bb6f-8930469b98cd.png",
+        description: "Note-taking Application",
+        link: "https://arcane-plateau-91110-cdcceaae4cc7.herokuapp.com/",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://dahfefe.github.io/2-portfolio-start/assets/images/felixthecat7587_animated_colorful_picture_of_a_man_creating_a_s_3e6cb3a1-0dca-41a9-9f4f-0172373eeec9.png",
+        description: "Daily Planner Application",
+        link: "https://dahfefe.github.io/5-daily-planner/",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://repository-images.githubusercontent.com/337150944/a51e8900-6aec-11eb-8c14-9119664dccda",
+        description: "React Portfolio Build",
+        link: "https://ubaimutl.github.io/react-portfolio/",
     },
 ];
 
