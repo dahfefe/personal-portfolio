@@ -6,6 +6,9 @@ import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
 
+// Here we import a helper function that will check if the email is valid
+import { validateEmail } from "../../utils/helpers";
+
 // Create state variables for the fields in the form
 // We are also setting their initial values to an empty string
 export const ContactUs = () => {
@@ -19,6 +22,8 @@ export const ContactUs = () => {
     variant: "",
   });
 
+  const [errorMessage, setErrorMessage] = useState('');
+
   const handleSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
@@ -30,6 +35,20 @@ export const ContactUs = () => {
       to_name: contactConfig.YOUR_EMAIL,
       message: formData.message,
     };
+
+    // Check to see if the email is not valid. If so we set an error message to be displayed on the page.
+    if (!validateEmail(formData.email)) {
+      setErrorMessage('Email is invalid');
+      // We want to exit out of this code block if something is wrong so that the user can correct it
+      return;
+    }
+
+    // Check to see if the name is empty. If so we set an error message to be displayed on the page.
+    if (!(formData.name)) {
+      setErrorMessage('Entering a name is required');
+      // We want to exit out of this code block if something is wrong so that the user can correct it
+      return;
+    }
 
     emailjs
       .send(
