@@ -5,6 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 import { logotext, socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
 
+// This component handles the light/dark theme toggling, display of the navbar, and rendering social media icons/links
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
 
@@ -38,7 +39,7 @@ const Headermain = () => {
                   <NavLink  onClick={handleToggle} to="/" className="my-3" activeClassName="active"> Home</NavLink>
                   </li>
                   <li className="menu_item">
-                  <NavLink  onClick={handleToggle} to="/portfolio" className="my-3" activeClassName="active"> Portfolio</NavLink>
+                  <NavLink  onClick={handleToggle} to="/project" className="my-3" activeClassName="active"> Project</NavLink>
                   </li>
                   <li className="menu_item">
                   <NavLink onClick={handleToggle} to="/about" className="my-3" activeClassName="active"> About Me</NavLink>

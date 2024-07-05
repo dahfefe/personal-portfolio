@@ -10,6 +10,7 @@ import {
   services,
 } from "../../content_option";
 
+// About renders the html content for About Me page
 export const About = () => {
   return (
     <HelmetProvider>

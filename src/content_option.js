@@ -1,3 +1,5 @@
+// this file provides all variables for display inputs of personal details describing the person being showcased by the portfolio website
+
 const logotext = "FELIX TENG";
 const meta = {
     title: "Felix Teng",

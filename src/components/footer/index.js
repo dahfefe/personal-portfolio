@@ -10,6 +10,8 @@ import {
 } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
 
+// Footer accepts params as a prop
+// This component is solely responsible for displaying icon/links for social media accounts
 export const Footer = (params) => {
   return (
     <div className="stick_follow_icon">

@@ -7,6 +7,7 @@ import {
   services,
 } from "../../content_option";
 
+// Resume renders the html content for Resume page
 export const Resume = () => {
   return (
     <HelmetProvider>

@@ -1,3 +1,4 @@
+// We import useEffect in our component
 import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {

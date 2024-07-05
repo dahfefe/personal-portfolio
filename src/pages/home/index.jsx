@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 
+// Home renders the html content for Home page
 export const Home = () => {
   return (
     <HelmetProvider>
@@ -39,7 +40,7 @@ export const Home = () => {
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
-                  <Link to="/portfolio" className="text_2">
+                  <Link to="/project" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
                       My Portfolio
                       <div className="ring one"></div>

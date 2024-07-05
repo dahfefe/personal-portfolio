@@ -4,7 +4,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataportfolio, meta } from "../../content_option";
 
-export const Portfolio = () => {
+// Project renders the portfolio content for Portfolio page which is used for multiple instances to display each project on the page
+export const Project = () => {
   return (
     <HelmetProvider>
       <Container className="About-header">
