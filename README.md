@@ -12,7 +12,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 This project includes individual portfolio of myself using React. 
 
-GitHub repo link: https://github.com/dahfefe/felix-teng-portfolio
+GitHub repo link: https://github.com/dahfefe/personal-portfolio
 
 ## What I Learned
   
