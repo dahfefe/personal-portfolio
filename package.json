@@ -16,6 +16,9 @@
         "typewriter-effect": "^2.18.2",
         "web-vitals": "^3.1.1"
     },
+    "devDependencies": {
+        "@babel/plugin-proposal-private-property-in-object": "version_number"
+    },
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
