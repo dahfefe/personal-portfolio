@@ -6,6 +6,8 @@ import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
 
+// Create state variables for the fields in the form
+// We are also setting their initial values to an empty string
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
     email: "",
@@ -18,6 +20,7 @@ export const ContactUs = () => {
   });
 
   const handleSubmit = (e) => {
+    // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
     setFormdata({ loading: true });
 
