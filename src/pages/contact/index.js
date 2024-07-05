@@ -180,6 +180,11 @@ export const ContactUs = () => {
                 </Col>
               </Row>
             </form>
+            {errorMessage && (
+              <div>
+                <p className="error-text">{errorMessage}</p>
+              </div>
+            )}
           </Col>
         </Row>
       </Container>
