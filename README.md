@@ -23,12 +23,13 @@ I became better familiarized with React in conjunction with [Express.js](https:/
 - [Usage](#usage)
 - [License](#license)
 - [Features](#features)
+- [Credits](#credits)
 - [How to Contribute](#contributing)
 - [Any Questions?](#questions)
 
 ## Usage
 
-Backend functionality enabling any individual user, group, or company to adjust data by viewing, creating, updating, and deleting stored data within a database. 
+Personal portfolio website for displaying my personal details to potential employers and showcasing recent relevant achievements. 
 
 ## License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -37,8 +38,22 @@ This project is licensed under the [MIT License](https://opensource.org/license/
 ## Features
   
 Dependency: 
-- [Express 4.17.1](https://www.npmjs.com/package/express)
-- [Mongoose](https://www.npmjs.com/package/mongoose)
+- [Bootstrap 5.2.3](https://www.npmjs.com/package/bootstrap)
+- [Emailjs-com 3.2.0](https://www.npmjs.com/package/emailjs)
+- [React 18.2.0](https://www.npmjs.com/package/react)
+- [React-bootstrap 2.7.0](https://www.npmjs.com/package/react-bootstrap)
+- [React-dom 18.2.0](https://www.npmjs.com/package/react-dom)
+- [React-helmet-async 1.0.7](https://www.npmjs.com/package/react-helmet-async)
+- [React-icons 4.1.0](https://www.npmjs.com/package/react-icons)
+- [React-router-dom 6.6.2](https://www.npmjs.com/package/react-router-dom)
+- [React-scripts 5.0.1](https://www.npmjs.com/package/react-scripts)
+- [React-transition-group 4.4.2](https://www.npmjs.com/package/react-transition-group)
+- [Typewriter-effect 2.18.2](https://www.npmjs.com/package/typewriter-effect)
+- [Web-vitals 3.1.1](https://www.npmjs.com/package/web-vitals)
+
+## Credits
+
+[ubaimutl](https://github.com/ubaimutl/react-portfolio)
 
 ## Contributing
 
