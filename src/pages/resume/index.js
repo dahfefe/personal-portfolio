@@ -18,11 +18,11 @@ export const Resume = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">
+            <h3 className="display-5 mb-4"> Link to download resume: &nbsp;   
               <a href="https://grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf">
-                <img src="https://banner2.cleanpng.com/20180623/ykc/kisspng-computer-icons-document-file-format-xml-pdf-icon-5b2dccdb36d938.0621910415297282192247.jpg" alt="pdf-icon" />
+                <img width="75" height="50" src="https://banner2.cleanpng.com/20180623/ykc/kisspng-computer-icons-document-file-format-xml-pdf-icon-5b2dccdb36d938.0621910415297282192247.jpg" alt="pdf-icon" />
               </a>
-            </h1>
+            </h3>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
