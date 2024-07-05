@@ -16,7 +16,7 @@ GitHub repo link: https://github.com/dahfefe/personal-portfolio
 
 ## What I Learned
   
-I became better familiarized with React in conjunction with [Express.js](https://www.npmjs.com/package/express) and [Mongoose](https://www.npmjs.com/package/mongoose) packages.
+I became better familiarized with React syntax and structuring. 
 
 ## Table of Contents
 
