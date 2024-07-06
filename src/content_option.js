@@ -10,7 +10,7 @@ const introdata = {
     title: "Full Stack Developer",
     animated: {
         first: "I love helping clients with low budgets",
-        second: "Attractive designs are a requirement in any project",
+        second: "Attractive designs are a must!",
         third: "I have a weird joy for data management",
     },
     description: "Currently, I am a freelance developer assisting clients dominantly with frontend design, e-commerce management, and data management.",
@@ -102,7 +102,6 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "fsmunozteng@gmail.com",
     description: "Striving to meet your utmost satisfaction at competitive prices!",
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",

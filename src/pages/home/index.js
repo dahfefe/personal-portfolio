@@ -18,7 +18,7 @@ export const Home = () => {
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
             className="h_bg-image order-1 order-lg-2 h-100 "
-            style={{ backgroundImage: "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/449382262_10230868873401964_5175999602393916229_n.jpg?stp=c0.13.480.480a_dst-jpg_p480x480&_nc_cat=109&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=cN2s_7XQZSAQ7kNvgGCU5Ft&_nc_ht=scontent-sjc3-1.xx&oh=00_AYBM1jo6ODR3vSyFjgoomp6tXMzTiHpvmzW0t_VFH9Eg2w&oe=668592E4" }}
+            style={{ backgroundImage: `url(${introdata.your_img_url})` }}
           ></div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
