@@ -8,6 +8,7 @@ const Themetoggle = () => {
     settheme(theme === "dark" ? "light" : "dark");
   };
   useEffect(() => {
+    console.log(document.documentElement);
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme ); 
   }, [theme]);
