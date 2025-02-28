@@ -9,9 +9,9 @@ const meta = {
 const introdata = {
     title: "Full Stack Developer",
     animated: {
-        first: "I love helping clients with low budgets",
-        second: "Attractive designs are a must!",
-        third: "I have a weird joy for data management",
+        first: "Peak Efficiency",
+        second: "Effective Team Leader",
+        third: "Receptive, Reliable, Adaptable",
     },
     description: "Currently, I am a freelance developer assisting clients dominantly with frontend design, e-commerce management, and data management.",
     your_img_url: "https://scontent.fsac1-2.fna.fbcdn.net/v/t39.30808-6/449382262_10230868873401964_5175999602393916229_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=LJkZVRVLl6oQ7kNvgHFHPGX&_nc_ht=scontent.fsac1-2.fna&oh=00_AYDz-8_uD8R4m-Rt7-ip7Qpqs4_qr4gxjGYHPjwQI6BUrQ&oe=66909014",
