@@ -4,7 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   meta,
-  educationList,
+  education,
   services,
 } from "../../content_option";
 
@@ -43,7 +43,7 @@ export const Resume = () => {
             <h3 className="color_sec py-4">Education</h3>
           </Col>
           <Col lg="7">
-            {educationList.map((data, i) => {
+            {education.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>
                   <h5 className="service__title">{data.title}</h5>

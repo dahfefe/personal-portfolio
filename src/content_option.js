@@ -44,7 +44,7 @@ const skills = [
     },
 ];
 
-const educationList = [{
+const education = [{
     title: "UC Berkeley Coding Bootcamp, Certificate, July 2024",
 },
 {
@@ -115,6 +115,7 @@ export {
     dataabout,
     dataportfolio,
     worktimeline,
+    education,
     skills,
     services,
     introdata,
