@@ -49,16 +49,16 @@ const skills = [
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Make is stunning!",
+        title: "Javascript",
+        description: "Highly versed and always looking for challenge and growth",
     },
     {
-        title: "Data Management",
-        description: "Effective organization of your data.",
+        title: "Python",
+        description: "Simplicity and versatility",
     },
     {
-        title: "Front End Development",
-        description: "Design you will appreciate.",
+        title: "SQL",
+        description: "Passionate about organization and data management",
     },
 ];
 
