@@ -20,7 +20,7 @@ export const Resume = () => {
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
             <h3 className="display-5 mb-4"> Link to download resume: &nbsp;   
-              <a href="https://grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf">
+              <a href="https://drive.google.com/file/d/197OaY4QAFyvIjfofONWq9kZcuzyZWn2p/view?usp=drive_link">
                 <img width="75" height="50" src="https://banner2.cleanpng.com/20180623/ykc/kisspng-computer-icons-document-file-format-xml-pdf-icon-5b2dccdb36d938.0621910415297282192247.jpg" alt="pdf-icon" />
               </a>
             </h3>
