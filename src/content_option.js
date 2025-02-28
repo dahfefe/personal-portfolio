@@ -92,12 +92,6 @@ const dataportfolio = [{
         link: "https://dahfefe.github.io/5-daily-planner/",
         gitHubLink: "https://github.com/dahfefe/5-daily-planner/",
     },
-    {
-        img: "https://repository-images.githubusercontent.com/337150944/a51e8900-6aec-11eb-8c14-9119664dccda",
-        description: "React Portfolio Build",
-        link: "https://ubaimutl.github.io/react-portfolio/",
-        gitHubLink: "https://github.com/",
-    },
 ];
 
 const contactConfig = {
