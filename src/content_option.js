@@ -14,7 +14,7 @@ const introdata = {
         third: "Receptive, Reliable, Adaptable",
         fourth: "Exceeds Expectations",
     },
-    description: "Currently, I am a freelance developer assisting clients dominantly with frontend design, e-commerce management, and data management.",
+    description: "Specialize in Javascript, Python, & SQL",
     your_img_url: "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/481057305_10233701944946982_3555981958317877324_n.jpg?stp=c59.0.1364.1364a_dst-jpg_s480x480_tt6&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_ohc=MpwCkcY90KQQ7kNvgFuyjTS&_nc_oc=AdgD8T5kdwq6Ed6lbKkeX1TW7VdY-pw8-75wpjBlD3s4EEFyrgf-ZOuSGfBv3y1vCAI&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AXRKGuoh5P8jH7fzjKOCiCy&oh=00_AYA3nU8U1FK4WEPIRQng5drbEAwtxhs8pU38OYC2bZd7_A&oe=67C71D28",
 };
 
