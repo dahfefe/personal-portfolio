@@ -20,7 +20,7 @@ const introdata = {
 
 const dataabout = {
     title: "About Me",
-    aboutme: "Currently, I am a freelance developer assisting clients dominantly with frontend design, e-commerce management, and data management.",
+    aboutme: "CA Full-Stack Web Developer who is intuitive, a natural problem-solver, well-rehearsed in coding and debugging, and operates with a hard working, punctual, and reliable attitude while balancing fun and humor. Currently searching for a junior position in software development in hopes of committing to a company with a life-long mission on enhancing the human experience.",
 };
 const worktimeline = [{
         jobtitle: "UC Berkeley Coding Bootcamp",
