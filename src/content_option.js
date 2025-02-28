@@ -95,8 +95,7 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "fsmunozteng@gmail.com",
-    description: "Striving to meet your utmost satisfaction at competitive prices!",
+    YOUR_EMAIL: "felixsterlingteng@gmail.com",
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",
