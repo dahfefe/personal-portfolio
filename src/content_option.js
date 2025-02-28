@@ -48,6 +48,14 @@ const skills = [
     },
 ];
 
+const educationList = [{
+    title: "UC Berkeley Coding Bootcamp, Certificate, July 2024",
+},
+{
+    title: "University of California, Davis, B.S., 2013",
+},
+];
+
 const services = [{
         title: "Javascript",
         description: "Highly versed and always looking for challenge and growth",

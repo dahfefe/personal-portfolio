@@ -4,6 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   meta,
+  educationList,
   services,
 } from "../../content_option";
 
@@ -42,20 +43,13 @@ export const Resume = () => {
             <h3 className="color_sec py-4">Education</h3>
           </Col>
           <Col lg="7">
-            <table className="table caption-top">
-              <tbody>
-                <tr>
-                  <th>UC Berkeley Coding Bootcamp</th>
-                  <td>Certificate</td>
-                  <td>2024</td>
-                </tr>
-                <tr>
-                  <th>University of California, Davis</th>
-                  <td>B.S.</td>
-                  <td>2013</td>
-                </tr>
-              </tbody>
-            </table>
+            {educationList.map((data, i) => {
+              return (
+                <div className="service_ py-4" key={i}>
+                  <h5 className="service__title">{data.title}</h5>
+                </div>
+              );
+            })}
           </Col>
         </Row>
         <Row className="sec_sp">
